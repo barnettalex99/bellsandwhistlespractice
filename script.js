@@ -22,21 +22,19 @@ function oneBack() {
 }
 
 function oneForward() {
-  console.log('button pressed');
-  console.log(currentIndex);
   if (currentIndex < 5) {
-    console.log('enters if');
     let newIndex = currentIndex + 1;
     let newPic = picArray[newIndex];
     img.src = newPic;
     currentIndex = newIndex;
   } else if (currentIndex === 5) {
-    console.log('enters else');
-    console.log(pic6);
     img.src = pic1;
     currentIndex = 0;
-    console.log(img.src);
   }
 }
 
 //add little tiny buttons that select arrayindex and then darken when clicked
+function gallerySelect(index) {
+  // const galleryButton = document.getElementById(index);
+  img.src = picArray[index];
+}
