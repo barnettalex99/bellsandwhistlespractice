@@ -3,6 +3,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 100px 200px 1fr 1fr 1fr;
     text-align: center;
+    place-items: center;
 }
 
 h1{
@@ -33,3 +34,11 @@ nav{
     visibility: visible;
 }
 
+.image-container{
+    height: 30vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: center;
+}
