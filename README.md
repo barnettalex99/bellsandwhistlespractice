@@ -1,0 +1,1 @@
+This project is to practice two fun elements: drop-down-menus and image slide decks!
